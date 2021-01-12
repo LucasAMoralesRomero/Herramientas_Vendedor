@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de frigorias</title>
+    <link href = "css/estilo.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form name="CalcFrigorias"> 
+        <div>
+            <label for="largo">Largo:</label>
+            <input type="text" id="largo" name="largo" ></input>
+        </div>
+        <div>
+            <label for="ancho">Ancho:</label>
+            <input type="text" id="ancho" name="ancho" ></input>
+        </div>
+        <div>
+            <label for="alto">Alto:</label>
+            <input type="text" id="alto" name="alto" ></input>
+        </div>
+        <div>
+            <input type="button" id="calcular" name="calcular" value="Calcular frigorias" onclick="return calcularFrigorias()">
+        </div>
+        <div>
+            <label><h2>Cantidad de frigorias necesarias:</h2></label>
+            <input type="text" id="resultado" name="resultado">
+        </div>
+        </form>
+    <script src="js/CalculoFrigorias.js"></script>
+</body>
+</html>
