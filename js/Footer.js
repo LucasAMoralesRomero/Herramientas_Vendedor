@@ -1,1 +1,4 @@
-© 2020 - 2022 Copyright: <a href="https://github.com/LucasAMoralesRomero"> Lucas Agustín Morales Romero</a>
+let fecha = new Date();
+let year = fecha.getFullYear();
+let span = document.getElementById("year");
+span.innerHTML = year;
