@@ -8,7 +8,7 @@
 
 Este proyecto es una página web que permite calcular las frigorías necesarias para enfriar un cuarto. En un futuro, se planea que también permita calcular el consumo eléctrico y recomendar la compra de un generador eléctrico.
 
-La página está desplegada en Netlify y se puede acceder a ella a través de este enlace: (https://nombre-de-la-pagina.netlify.app/)
+La página está desplegada en Netlify y se puede acceder a ella a través de este enlace: https://nombre-de-la-pagina.netlify.app/
 
 ## Tecnologías utilizadas
 
